@@ -12,12 +12,13 @@
     "develop": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
-    "start": "gatsby develop",
+    "dev": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "predeploy": "npm run build",
     "deploy":"gh-pages -d build",
-    "heroku-postbuild": "gatsby build"
+    "heroku-postbuild": "gatsby build",
+    "start": "gatsby serve"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^1.2.17",

@@ -17,8 +17,7 @@
     "clean": "gatsby clean",
     "predeploy": "npm run build",
     "deploy":"gh-pages -d build",
-    "heroku-postbuild": "gatsby build",
-    "start": "gatsby serve"
+    "heroku-postbuild": "gatsby build"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^1.2.17",
